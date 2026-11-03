@@ -1,5 +1,16 @@
+
 {
   "schema_version": "1.0",
   "name": "NOVEXA Module Repository",
-  "modules": []
+  "modules": [
+    {
+      "id": "novexa-hello-module",
+      "name": "NOVEXA Hello Module",
+      "version": "1.0.0",
+      "description": "Modul uji untuk memverifikasi instalasi dan aktivasi modul melalui NOVEXA Core.",
+      "download_url": "https://raw.githubusercontent.com/imamariefa/novexa-website-suite/main/releases/novexa-hello-module-1.0.0.zip",
+      "sha256": "9b560311ec07b3d89fc2ab1e89ef0089b0d2ed96c4035c8c5294cf880a98a67c",
+      "requires_core": "0.8.0"
+    }
+  ]
 }
